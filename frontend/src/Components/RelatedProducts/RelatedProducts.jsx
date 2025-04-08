@@ -21,7 +21,7 @@ const RelatedProducts = ({category,id}) => {
 
   return (
     <div className='relatedproducts'>
-      <h1>Related Products</h1>
+      <h1 className='qq'> Related Products</h1>
       <hr />
       <div className="relatedproducts-item">
         {related.map((item,index)=>{

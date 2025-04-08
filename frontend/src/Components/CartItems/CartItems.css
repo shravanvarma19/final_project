@@ -1,5 +1,8 @@
 .cartitems{
     margin: 100px 10%;
+    background-color: beige;
+    border: 1px solid;
+    border-radius: 12px;
 }
 .cartitems hr{
     height: 2px;
@@ -61,6 +64,7 @@
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
+    border-radius: 20px;
 }
 .cartitems-promocode{
     flex: 1;
@@ -68,16 +72,24 @@
     font-weight: 500;
 }
 .cartitems-promocode p{
-    color: #555;
+    color: #363434;
+    margin: 40px;
 }
 .cartitems-promobox{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid;
     width: 400px;
     margin-top: 15px;
     height: 50px;
-    background: #eaeaea;
+    background: #fcf6f6;
+    border-radius: 20px;
+    margin: center;
+}
+.aa{
+    margin-bottom: 2px;
+    margin-left: 3PX;
 }
 .cartitems-promobox input{
     border: none;
@@ -95,6 +107,7 @@
     background: black;
     color: white;
     cursor: pointer;
+    border-radius: 20px;
 }
 @media(max-width:1280px){
     .cartitems{

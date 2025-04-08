@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className='nav'>
       <Link to='/' onClick={() => { setMenu("shop") }} style={{ textDecoration: 'none' }} className="nav-logo">
         <img src={logo} alt="logo" />
-        <p>Fashion Club</p>
+        <p>Shravan Club</p>
       </Link>
       <img onClick={dropdown_toggle} className='nav-dropdown' src={nav_dropdown} alt="" />
       <ul ref={menuRef} className="nav-menu">
@@ -38,8 +38,10 @@ const Navbar = () => {
           ? <button onClick={() => { localStorage.removeItem('auth-token'); window.location.replace("/"); }}>Logout</button>
           : <Link to='/login' style={{ textDecoration: 'none' }}><button>Login</button></Link>}
         <Link to="/cart"><img src={cart_icon} alt="cart" /></Link>
+        
         <div className="nav-cart-count">{getTotalCartItems()}</div>
       </div>
+      
     </div>
   )
 }

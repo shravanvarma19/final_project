@@ -5,9 +5,9 @@ const Contact = () => {
   return (
     <div className="contact-page">
       <h1>Contact Us</h1>
-      <p>If you have any questions, feel free to reach out to us.</p>
-      <p>Email: support@Fashion Club.com</p>
-      <p>Phone: +1 234 567 890</p>
+      <p className='co'>If you have any questions, feel free to reach out to us.</p>
+      <p className='co'>Email: support@Shravan Club.com</p>
+      <p className='co'>Phone: +91 0123459876</p>
       {/* Add more contact details as needed */}
     </div>
   );

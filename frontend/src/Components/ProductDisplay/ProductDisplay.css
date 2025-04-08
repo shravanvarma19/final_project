@@ -12,19 +12,27 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+}
+.ee{
+    border-radius: 50px;
 }
 .productdisplay-img-list img{
     height: 110px;
     max-width: 120px;
+    border-radius: 2px;
 }
 .productdisplay-main-img{
     height: 500px;
+    border-radius: 7px;
     /* max-width: 420px; */
 }
 .productdisplay-right{
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-top: 3px;
+    
 }
 .productdisplay-right h1{
     color: #3d3d3d;
@@ -63,6 +71,8 @@
     display: flex;
     margin: 20px 0px;
     gap: 15px;
+    margin-top:1px;
+    border-radius: 7px;
 }
 .productdisplay-right-sizes div{
     padding: 16px 20px;

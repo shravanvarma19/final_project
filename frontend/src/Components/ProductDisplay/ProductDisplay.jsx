@@ -23,7 +23,7 @@ const ProductDisplay = ({product}) => {
         </div>
       </div>
       <div className="productdisplay-right">
-        <h1>{product.name}</h1>
+        <h1 className="aa">{product.name}</h1>
         <div className="productdisplay-right-stars">
           <img src={star_icon} alt="" />
           <img src={star_icon} alt="" />
@@ -40,7 +40,7 @@ const ProductDisplay = ({product}) => {
         {product.description}
         </div>
         <div className="productdisplay-right-size">
-          <h1>Select Size</h1>
+          <h1 className="aa">Select Size</h1>
           <div className="productdisplay-right-sizes">
             <div>S</div>
             <div>M</div>
@@ -49,7 +49,7 @@ const ProductDisplay = ({product}) => {
             <div>XXL</div>
           </div>
         </div>
-        <button onClick={()=>addToCart(product.id)}>ADD TO CART</button>
+        <button className="ee" onClick={()=>addToCart(product.id)}>ADD TO CART</button>
         <p className="productdisplay-right-category"><span>Category :</span> Women, T-shirt, Crop Top</p>
         <p className="productdisplay-right-category"><span>Tags :</span> Modern, Latest</p>
       </div>

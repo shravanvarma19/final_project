@@ -15,6 +15,9 @@
     font-size: 60px;
     font-weight: 600;
 }
+.pp{
+    margin: 2px;
+}
 .offers-left p{
     color: #171717;
     font-size: 16px;
@@ -35,6 +38,8 @@
 .offers-right img{
     width: 320px;
     padding-top: 20px;
+    filter: drop-shadow(20px 20px 10px black);
+
 }
 
 /* ----- media query----- */
@@ -45,6 +50,7 @@
     }
     .offers-left h1{
         font-size: 40px;
+        text-align: left;
     }
     .offers-left p{
         font-size: 14px;

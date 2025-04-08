@@ -84,6 +84,7 @@ const AddProduct = () => {
         <p>Product image</p>
         <label htmlFor="file-input">
           <img className="addproduct-thumbnail-img" src={!image ? upload_area : URL.createObjectURL(image)} alt="" />
+         
         </label>
         <input onChange={(e) => setImage(e.target.files[0])} type="file" name="image" id="file-input" accept="image/*" hidden />
       </div>
@@ -93,3 +94,6 @@ const AddProduct = () => {
 };
 
 export default AddProduct;
+
+
+

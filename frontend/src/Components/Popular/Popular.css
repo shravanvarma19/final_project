@@ -17,6 +17,12 @@
     border-radius: 10px;
     background: #252525;
 }
+.oo{
+    text-align: center;
+}
+.qq{
+    margin-bottom: 2px;
+}
 .popular-item{
     margin-top: 40px;
     display: flex;
@@ -24,6 +30,8 @@
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
+    filter: drop-shadow(20px 20px 10px black);
+    
 }
 /* ---------- media query------------ */
 

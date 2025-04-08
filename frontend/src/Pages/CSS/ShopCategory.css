@@ -1,13 +1,14 @@
 .shopcategory-banner{
     display: block;
-    margin: 30px auto;
-    width: 80%;
+    margin: 20px auto;
+    width: 90%;
 }
 .shopcategory-indexSort{
     display: flex;
     margin: 0px 170px;
     justify-content: space-between;
     align-items: center;
+
 }
 .shopcategory-sort{
     padding: 10px 20px;
@@ -40,6 +41,11 @@
     font-size: 16px;
     font-weight: 500;
 }
+.shopcategory-loadmore:hover{
+    background-color: hsl(23, 92%, 60%);
+    color: white;
+
+}
 @media (max-width:1280px) {
     .shopcategory-banner{
         margin: 20px auto;
@@ -52,9 +58,11 @@
     .shopcategory-sort{
         padding: 5px 10px;
         font-size: 12px;
+    
     }
     .shopcategory-indexSort p{
         font-size: 12px;
+        
     }
 }
 @media (max-width:800px) {
@@ -78,6 +86,7 @@
   .shopcategory-filter {
     display: flex;
     align-items: center;
+
   }
   
   .shopcategory-sort select,
@@ -88,5 +97,6 @@
   .shopcategory-sort img,
   .shopcategory-filter img {
     margin-left: 5px;
+    
   }
   

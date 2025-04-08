@@ -1,6 +1,6 @@
 .hero{
     min-height: 90vh;
-    background:  linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    background:  linear-gradient(180deg, #EDA8F3, #e1ffea22 60%);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,6 +48,7 @@
 
 .hero-right img{
     width: 450px;
+    filter: drop-shadow(20px 20px 10px black);
 }
 
 @media(max-width:1200px){
